@@ -45,7 +45,7 @@ yarn run test
 
 ## Notes/ next steps
 
-More helpful usage and error messages would be nice.
-Refactor and increase test coverage.
-Build considerations for reading much larger .txt files (fs.readFile may require too much memory, use fs.read and handle chunks manually)
-Nicer standalone module packaging using `browserify` or `webpack` and ship to `npm`
+* More helpful usage and error messages would be nice.
+* Refactor and increase test coverage.
+* Build considerations for reading much larger .txt files (fs.readFile may require too much memory, use fs.read and handle chunks manually)
+* Nicer standalone module packaging using `browserify` or `webpack` and ship to `npm`
