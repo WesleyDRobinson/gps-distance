@@ -1,0 +1,17 @@
+{
+  "name": "intercom-screener",
+  "version": "1.0.0",
+  "description": "find distance between customer and Intercom Dublin office",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "ava --verbose",
+    "cli:example": "node lib/index.js './customers.txt'"
+  },
+  "author": "wesley",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.20.0"
+  }
+}
